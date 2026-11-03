@@ -2,14 +2,14 @@
 
 <img src="wiizv-icon.png" alt="WiizV" width="160">
 
-SFC版Wizardry V向けの非公式プレイヤーの配布リポジトリーです。
+SFC版Wizardry Vを快適に遊ぶために作成したプレイヤーです。
 Windows x64／Android 6以降のARM64に対応します。Android APKはx86_64も含みます。
 ROM・ゲーム画像・音楽・セーブデータ・署名用の秘密鍵は付属しません。
 所有する対応ROM（.smc／.sfc）を用意してください。
 
 ## ダウンロードと起動
 
-リポジトリーの **Code → Download ZIP** から全体を取得して展開してください。
+リポジトリーの Releasesから取得して展開してください。
 
 - **Windows**：`Windows/WiizV.exe`を起動します。DLL・licensesも一緒に配置してください。
   必要なMicrosoft Visual C++ v14ランタイム（x64）が未導入の場合は、
