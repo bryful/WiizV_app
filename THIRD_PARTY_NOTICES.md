@@ -26,3 +26,8 @@ WiizVのコア拡張は`wiizv_*.inc`・`wiizv_*.h`、Windows用の適用・ビ�
 
 ゲームのROM、ゲームから抽出した素材、ゲームマニュアル、ユーザーのセーブ、認証情報・秘密鍵は配布対象に含めていません。
 アイコンは依頼者のWiizアイコンを参考に画像生成ツールで作成したカートリッジの図案です。
+
+## ソースリポジトリ内の所在
+
+WiizV 独自部分はルートの `LICENSE`（MIT）を参照してください。
+Snes9x の原文ライセンス・元ソース・変更部分は `third_party/snes9x/`、SDL3 は `third_party/SDL3/`、入手先とバージョンは `third_party/PROVENANCE.md` にあります。Android の SDL Java コードと Gradle wrapper は `android/PROVENANCE.md` に記載された元の条件に従います。上記の `Windows/licenses/` は配布パッケージ内のパスです。

@@ -1,4 +1,4 @@
-param([ValidateSet('Debug','Release')][string]$Configuration = 'Release')
+﻿param([ValidateSet('Debug','Release')][string]$Configuration = 'Release')
 $ErrorActionPreference = 'Stop'
 & (Join-Path $PSScriptRoot 'prepare-core.ps1')
 $projectRoot = Split-Path -Parent $PSScriptRoot

@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $dependency = Join-Path $projectRoot 'third_party/snes9x'
 $upstream = Join-Path $dependency 'upstream'
